@@ -13,9 +13,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copying src code to Container
 COPY . /k8s_python_sample_code/src/
 
-# Application Environment variables
-ENV APP_ENV development
-
 # Exposing Ports
 EXPOSE 5035
 
